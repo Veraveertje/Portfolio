@@ -19,9 +19,8 @@ header {
 header h1 {
   font-size: 300%;
   font-family: New Century Schoolbook serif;
-  color: black;
+  color: #476b6b;
   text-align: right;
-  text-shadow: 5px 5px 7px #000;
 }
 
 ul {
@@ -51,7 +50,6 @@ section {
 
 section article {
   border: 3px solid black;
-  border-radius: 0px 20px 20px 20px;
   margin: 5px 10px 5px 10px;
   padding: 10px;
   background: white;
@@ -70,4 +68,18 @@ footer h3 {
 .wrapper {
   margin: 0 auto 0 auto;
   width: 1000px;
+}
+
+
+
+
+ #container{
+ display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+section {
+  display: flex;
+	justify-content: center;
 }
